@@ -1,38 +1,48 @@
+import logonode from '../assets/backEnd/nodejs.svg'
+import logodocker from '../assets/backEnd/docker.svg'
+import logotypescript from '../assets/backEnd/typescript.svg'
+import logosequelize from '../assets/backEnd/sequelize.svg'
+import logoprisma from '../assets/backEnd/prisma.svg'
+import logomysql from '../assets/backEnd/mysql2.svg'
+import logomongodb from '../assets/backEnd/mongodb.svg'
+import logochai from '../assets/backEnd/chai.svg'
+import logogithub from '../assets/backEnd/github.svg'
+
 export const backStacksContent = [
   {
     title: 'NodeJs',
-    src: '../src/assets/backEnd/nodejs.svg'
+    src: logonode
   },
   {
     title: 'Docker',
-    src: '../src/assets/backEnd/docker.svg'
-  },
-  {
-    title: 'TypeScript',
-    src: '../src/assets/backEnd/typescript.svg'
+    src: logodocker
   },
   {
     title: 'Sequelize',
-    src: '../src/assets/backEnd/sequelize.svg'
+    src: logosequelize
   },
   {
     title: 'Prisma',
-    src: '../src/assets/backEnd/prisma.svg',
+    src: logoprisma
   },
   {
     title: 'MySQL',
-    src: '../src/assets/backEnd/mysql2.svg'
+    src: logomysql
   },
   {
     title: 'MongoDB',
-    src: '../src/assets/backEnd/mongodb.svg'
+    src: logomongodb
   },
   {
     title: 'Chai',
-    src: '../src/assets/backEnd/chai.svg'
+    src: logochai
   },
-{
-  title: 'GitHub',
-  src: '../src/assets/backEnd/github.svg'
-},
+  {
+    title: 'GitHub',
+    src: logogithub
+  },
+  {
+    title: 'TypeScript',
+    src: logotypescript
+  }
 ];

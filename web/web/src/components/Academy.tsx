@@ -23,11 +23,11 @@ export function Academy() {
             <li><span className='font-black'>Curso:</span> Desenvolvimento Web Full-Stack </li>
             <li><span className='font-black'>Período:</span> novembro de 2021 - novembro de 2022. 10 meses - em curso</li>
             <ul className="list-disc"><span className='font-black'>Descrição:</span>
-              <li className="ml-8">A Trybe é uma escola de desenvolvimento web que tem comprometimento genuíno com o sucesso profissional das pessoas estudantes.
+              <li className="ml-4">A Trybe é uma escola de desenvolvimento web que tem comprometimento genuíno com o sucesso profissional das pessoas estudantes.
               São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento web, desenvolvimento Front-end e Back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.</li>
-              <li className="ml-8">Foco no desenvolvimento web full stack, utilizando as principais ferramentas do mercado</li>
-              <li className="ml-8">Ensino focado tanto em habilidades técnicas quanto habibilidades comportamentais</li>
-              <li className="ml-8">Metodologias ágeis</li>
+              <li className="ml-4">Foco no desenvolvimento web full stack, utilizando as principais ferramentas do mercado</li>
+              <li className="ml-4">Ensino focado tanto em habilidades técnicas quanto habibilidades comportamentais</li>
+              <li className="ml-4">Metodologias ágeis</li>
             </ul>
             <li><span className='font-black'>Local:</span> Remoto </li>
           </ul>
@@ -38,7 +38,7 @@ export function Academy() {
             <li><span className='font-black'>Período:</span> agosto de 2021 - dezembro de 2023 - em curso</li>
             <ul className="list-disc"><span className='font-black'>Matérias Cursadas:</span>
               {
-                materiasUnitCursadas.map((item) =>  <li className="ml-8" key={item}>{ item }</li>)
+                materiasUnitCursadas.map((item) =>  <li className="ml-4" key={item}>{ item }</li>)
               }
             </ul>
             <li><span className='font-black'>Local</span> Remoto</li>

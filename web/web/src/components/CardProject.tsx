@@ -9,7 +9,7 @@ export function CardProject(props: ICardProjectProps) {
   
   return (
     <a href={ props.url} target='_blank'>
-      <div className="w-[300px] h-[480px] bg-black text-white border-2 rounded-md border-emerald-700 m-4 overflow-auto">
+      <div className="w-[260px] h-[480px] bg-black text-white border-2 rounded-md border-emerald-700 m-4 overflow-auto">
         <h1 className="text-center p-2 font-black">{props.title}</h1>
         <img className="p-2 " src={ props.img } alt={props.title} />
         <div className="overflow-auto">

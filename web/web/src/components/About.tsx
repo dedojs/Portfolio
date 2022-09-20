@@ -1,7 +1,9 @@
+import foto from '../assets/foto.jpeg'
+
 export function About() {
   return (
-    <div className="grid grid-cols-2 gap-4 p-8 border-2 bg-black/40 border-emerald-400 m-2 rounded-md">
-      <div className="text-white text-justify">
+    <div className="flex flex-wrap justify-evenly gap-4 p-8 mt-10 border-2 bg-black/40 border-emerald-400 m-2 rounded-md">
+      <div className="text-white text-justify w-[800px]">
         <h1 className="text-2xl mb-2 font-black">Sobre:</h1>
         <div className="font-black">
           <h2 >Me chamo André Luis Sousa! Sou Desenvolvedor Web Full Stack e ciclista!</h2>
@@ -31,7 +33,7 @@ export function About() {
       <div className="flex justify-center items-center ">
         <img
           className="w-[360px] rounded-md"
-          src="../src/assets/foto andre.jpeg"
+          src={ foto }
           alt="foto andre"
         />
       </div>

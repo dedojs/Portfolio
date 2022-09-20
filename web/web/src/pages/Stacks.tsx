@@ -5,14 +5,13 @@ import { StacksBackEnd } from '../components/StacksBackEnd';
 export function Stacks() {
   const [ frontEnd, setFrontEnd ] = useState(true);
   const [ backEnd, setBackEnd ] = useState(true);
-  // const [ allStacks, setallStacks ] = useState(true);
 
 
   return (
-    <div>
-      <div className='mt-8 text-white'>
+    <div className='p-2 mt-10 text-white border-2 border-emerald-400 rounded-md m-2'>
+      <div className=''>
         <h1 className= 'text-4xl font-black text-center'>Projetos</h1>
-        <div className=' flex justify-center p-4'>
+        <div className=' sm:grid sm:grid-cols-3 gap-2 justify-center m-2 grid grid-cols-3 text-sm'>
           <button
             type='button'
             onClick={ () => {
@@ -20,7 +19,7 @@ export function Stacks() {
               setBackEnd(false)
               }
             }
-            className='mr-8'
+            className=' border hover:bg-white hover:text-black rounded-md p-1 '
           >
             Front End
           </button>
@@ -31,7 +30,7 @@ export function Stacks() {
               setBackEnd(true)
               }
             }
-            className='mr-8'
+            className='border hover:bg-white hover:text-black rounded-md p-1 '
           >
             Back End
           </button>
@@ -42,7 +41,7 @@ export function Stacks() {
               setFrontEnd(true)
               }
             }
-            className='mr-8'
+            className=' border hover:bg-white hover:text-black rounded-md p-1 '
           > 
             All
           </button>

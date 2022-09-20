@@ -9,7 +9,15 @@ module.exports = {
       backgroundImage: {
         backHome: "url('./src/assets/Fundo.png')"
       }
-    }
+    },
+    
+  },
+  variants: {
+    extend: {
+      display: ['group-focus'],
+      opacity: ['group-focus'],
+      inset: ['group-focus']
+    },
   },
   plugins: [],
 }

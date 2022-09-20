@@ -1,34 +1,43 @@
+import logohtml from '../assets/frontEnd/html52.svg'
+import logocss from '../assets/frontEnd/css.svg'
+import logojavascript from '../assets/frontEnd/javascript.svg'
+import logoreact from '../assets/frontEnd/react.svg'
+import logoredux from '../assets/frontEnd/redux.svg'
+import logobootstrap from '../assets/frontEnd/bootstrap.svg'
+import logotailwind from '../assets/frontEnd/tailwind.svg'
+import logojest from '../assets/frontEnd/jest.svg'
+
 export const frontStacksContent = [
   {
     title: 'Html',
-    src: '../src/assets/frontEnd/html52.svg'
+    src: logohtml
   },
   {
     title: 'Css',
-    src: '../src/assets/frontEnd/css.svg'
+    src: logocss
   },
   {
     title: 'JavaScript',
-    src: '../src/assets/frontEnd/javascript.svg'
+    src: logojavascript
   },
   {
     title: 'React',
-    src: '../src/assets/frontEnd/react.svg'
+    src: logoreact
   },
   {
     title: 'Redux',
-    src: '../src/assets/frontEnd/redux.svg'
+    src: logoredux
   },
   {
     title: 'Bootstrap',
-    src: '../src/assets/frontEnd/bootstrap.svg'
+    src: logobootstrap
   },
   {
     title: 'TailwindCss',
-    src: '../src/assets/frontEnd/tailwind.svg'
+    src: logotailwind
   },
   {
     title: 'Jest',
-    src: '../src/assets/frontEnd/jest.svg'
+    src: logojest
   },
 ];

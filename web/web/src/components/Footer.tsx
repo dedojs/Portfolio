@@ -1,16 +1,13 @@
+import { IconsContact } from "./IconsContact";
+
 export function Footer() {
   return (
-    <div className="w-'100%' bg-violet-500/50 flex justify-between p-2 items-center border-b-2 border-emerald-400 pl-8 pr-8 bottom-0">
-      <div className="">
-        <div className="bottom-0 left-0 right-0">
-
-          <p>© 2022 - Designed and built by André Sousa</p>
-          <div className="text-white">
-            <button className="mr-6">Home</button>
-            <button className="mr-6">Projetos</button>
-            <button className="mr-6">Contato</button>
-          </div>
-        </div>
+    <div className="w-'100%' bg-violet-500/50 flex flex-wrap justify-around p-2 items-center border-t-2 border-emerald-400 pl-8 pr-8 mt-10">
+      <div className="bottom-0 left-0 right-0 text-white">
+        <p className="text-center">© 2022 - André Sousa</p>
+      </div>
+      <div className="text-white text-sm">
+        <IconsContact />
       </div>
     </div>
   )

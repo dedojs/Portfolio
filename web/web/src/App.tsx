@@ -18,6 +18,7 @@ function App() {
         <Route path={'/stacks'} component={ Stacks}/>
         <Route path={'/' } component={ Home }/>
       </Switch>
+      <Footer />
     </div>
   )
 }

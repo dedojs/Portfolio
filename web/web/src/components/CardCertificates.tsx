@@ -1,4 +1,5 @@
 import { BuildingLibraryIcon, CalendarIcon } from '@heroicons/react/24/solid';
+import gold from '../assets/icons/golden.png'
 
 interface IcertificadosProps {
   title: string;
@@ -9,12 +10,12 @@ interface IcertificadosProps {
 
 export function CardCertificates(props: IcertificadosProps) {
   return (
-    <div className="border-black border-4 p-4 m-4 w-[400px] h-[290px] rounded-md bg-white flex flex-col">
+    <div className="border-black border-4 p-2 m-4 w-[400px] h-[350px] rounded-md bg-white flex flex-col">
       <div className='border-4 h-[380px] p-1'>
         <a href={props.url} target='_blank'>
         <div className='flex justify-center self-end'>
           <img
-            src='../src/assets/icons/golden.png'
+            src={gold}
             alt="medalha de ouro"
             className='w-16'
           />
