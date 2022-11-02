@@ -8,8 +8,29 @@ import oneAll from'../assets/projectImage/oneAll.png'
 import talkManager from'../assets/projectImage/talkManager.png'
 import storeManager from'../assets/projectImage/storeManager.png'
 import blogsApi from'../assets/projectImage/blogsApi.png'
+import eleicoesUnit from'../assets/projectImage/capa.jpg'
+import deliveryApp from'../assets/projectImage/deliveryApp.png'
+import jobInsights from'../assets/projectImage/jobInsights.png'
 
 export const projectsBackEnd = [
+  {
+    title: 'Delivery App',
+    url: 'https://github.com/dedojs/App-Delivery',
+    img: deliveryApp,
+    desc: 'HTML, CSS, JavaScript, React, MySql, NodeJs. O App delivery é um projeto inicial de um e-commerce, um delivery para uma distribuidora de bebidas, mas esse mesmo aplicativo pode ser facilmente modificado e direcionado para qualquer seguimento comercial. O projeto consiste em uma aplicação full stack que faz a integração do back end com o banco de dados, e com o front end; No back end desenvolvemos uma api, que é responsável pela conexão, integração do front end com o Banco de dados. Video de Apresentação: https://www.youtube.com/watch?v=Z0zONnLrn_E',
+  },
+  {
+    title: 'Eleições - Programação Web - Unit',
+    url: 'https://github.com/dedojs/Eleicoes_Unit',
+    img: eleicoesUnit,
+    desc: 'HTML, CSS, JavaScript, React, Prisma, MySql, PHP. Sistema WEB, full stack, para contabilização de votos on-line para eleição de síndico e subsíndico de condomínios. O sistema permite o cadastro e consulta das chapas de síndico e subsíndico que irão concorrer a eleição, assim como a contabilização dos votos dos condôminos. VIDEO APRESENTAÇÃO: https://www.youtube.com/watch?v=HpI_Muuqt28',
+  },
+  {
+    title: 'Job Insights - Python',
+    url: 'https://github.com/dedojs/job-Insights---python',
+    img: jobInsights,
+    desc: 'Python. Esse projeto foi desenvolvido em #Python, com o intuito de analisar um conjunto dados de um arquivo #csv, extraídos do site Glassdoor e obtidos através do #Kaggle (plataforma que disponibiliza dados para cientistas de dados). Além do código para a manipulação dos dados do arquivo, foram desenvolvidos testes para assegurar o correto funcionamento da aplicação. O projeto foi incorporado a um aplicativo web previamente desenvolvido em #Flask. VIDEO APRESENTAÇÃO: https://www.youtube.com/watch?v=W4Bu1DL9qk0'
+  },
   {
     title: 'RockSeat - nlw - Esports',
     url: 'https://github.com/dedojs/rocketSeat-nlwEsports',

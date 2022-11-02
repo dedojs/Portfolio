@@ -7,6 +7,7 @@ import logomysql from '../assets/backEnd/mysql2.svg'
 import logomongodb from '../assets/backEnd/mongodb.svg'
 import logochai from '../assets/backEnd/chai.svg'
 import logogithub from '../assets/backEnd/github.svg'
+import python from '../assets/backEnd/python.png'
 
 export const backStacksContent = [
   {
@@ -44,5 +45,9 @@ export const backStacksContent = [
   {
     title: 'TypeScript',
     src: logotypescript
-  }
+  },
+  {
+    title: 'Python',
+    src: python
+  },
 ];

@@ -6,6 +6,7 @@ interface IcertificadosProps {
   date: string;
   url: string;
   school: string;
+  desc?: string;
 }
 
 export function CardCertificates(props: IcertificadosProps) {
@@ -29,6 +30,9 @@ export function CardCertificates(props: IcertificadosProps) {
           <div className='flex p-1'>
             <CalendarIcon className='w-4 mr-1'/>
             <h3>Data: { props.date }</h3>
+          </div>
+          <div className='flex p-1 h-[150px]'> 
+            <p className='overflow-y-auto'>{ props.desc }</p>
           </div>
         </div>
         </a>

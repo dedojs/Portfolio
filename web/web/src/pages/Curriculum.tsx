@@ -11,7 +11,7 @@ export function Curriculo() {
 
   return(
     <div>
-      <div className="p-2 mt-10 text-white border-2 border-emerald-400 rounded-md m-2">
+      <div className="p-2 mt-10 text-white border-2 border-emerald-400 rounded-md m-2 min-h-[85vh]">
         <h1 className= 'text-4xl font-black text-center'>Currículo</h1>
         <div className='sm:grid sm:grid-cols-4 gap-2 justify-center m-2 grid grid-cols-2 text-sm mb-2'>
           <button

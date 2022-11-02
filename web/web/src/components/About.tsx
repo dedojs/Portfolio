@@ -2,8 +2,8 @@ import foto from '../assets/foto.jpeg'
 
 export function About() {
   return (
-    <div className="flex flex-wrap justify-evenly gap-4 p-8 mt-10 border-2 bg-black/40 border-emerald-400 m-2 rounded-md">
-      <div className="text-white text-justify w-[800px]">
+    <div className="flex min-h-[85vh] flex-wrap justify-evenly gap-4 p-8 mt-10 border-2 bg-black/40 border-emerald-400 m-2 rounded-md">
+      <div className="text-white text-justify w-[800px] flex flex-col justify-center">
         <h1 className="text-2xl mb-2 font-black">Sobre:</h1>
         <div className="font-black">
           <h2 >Me chamo André Luis Sousa! Sou Desenvolvedor Web Full Stack e ciclista!</h2>

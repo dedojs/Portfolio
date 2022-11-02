@@ -7,13 +7,14 @@ export function Certificates() {
       <h1 className="text-white text-center font-black mt-4 text-4xl ">Certificados</h1>
       <div className="flex flex-wrap justify-center text-black">
         {
-          dataCertificates.map(({ title, date, url, school}) => 
+          dataCertificates.map(({ title, date, url, school, desc}) => 
             <CardCertificates
               key={url}
               title={title}
               date={date}
               url={url}
-              school={school}            />
+              school={school}
+              desc={desc}            />
           )
         }
       </div>

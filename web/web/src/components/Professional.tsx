@@ -8,10 +8,10 @@ export function Professional() {
           <li><span className='font-black'>Empresa:</span> Delicatessen Dinani</li>
           <ul className="mb-4">
             <li><span className='font-black'>Cargo:</span> Empresário - sócio-grenete</li>
-            <li><span className='font-black'>Período:</span> dezembro de 2021 - fevereiro de 2022. 20 anos 3 meses</li>
+            <li><span className='font-black'>Período:</span> dezembro de 2001 - fevereiro de 2022. 20 anos 3 meses</li>
             <ul className="list-disc"><span className='font-black '>Competências:</span>
               <li className="ml-4 ">Gerenciamento comercial - realizando compra de mercadorias para produção e comercialização no varejo. Atendimento a forncedores</li>
-              <li className="ml-4">Gerenciamento pessoaç - realizando contratação, treinamento, reuniões e desligamento de colaboradores</li>
+              <li className="ml-4">Gerenciamento pessoal - realizando contratação, treinamento, reuniões e desligamento de colaboradores</li>
               <li className="ml-4">Gerenciamento administrativo - realizando a análise de fluxo de caixa, compensações bancárias, cálculo de margem de lucro, etc</li>
             </ul>
             <li><span className='font-black'>Local:</span> Vitória da Conquista - Bahia</li>
