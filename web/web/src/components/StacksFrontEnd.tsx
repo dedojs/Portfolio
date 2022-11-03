@@ -5,7 +5,7 @@ import { projectsFrontEnd } from "../data/projectsFrontEnd";
 
 export function StacksFrontEnd() {
   return (
-    <div className="border-2 bg-black/40 border-emerald-400 m-2 rounded-md text-center">
+    <div className="border-2 border-emerald-400 m-2 rounded-md text-center">
       <h1 className="text-white font-black mr-2 text-center text-4xl p-4">Front-End</h1>
       <p className="text-white mb-4 text-sm  "> * Clique no projeto para ser redirecionado para o site do projeto</p>
       <div className="flex p-1 items-center justify-around flex-wrap">

@@ -14,7 +14,7 @@ const materiasUnitCursadas = [
 export function Academy() {
   return (
     <div className="border-emerald-400 border-2 p-2 m-2 mb-4 rounded-md ">
-      <h1 className="text-white text-center font-black mt-4 text-4xl ">Experiência Acadêmica</h1>
+      <h1 className="text-white text-center font-black mt-4 mb-4 text-4xl ">Experiência Acadêmica</h1>
       <div className="flex flex-wrap text-white ml-8">
         <ol className="list-decimal">
 
@@ -41,7 +41,7 @@ export function Academy() {
                 materiasUnitCursadas.map((item) =>  <li className="ml-4" key={item}>{ item }</li>)
               }
             </ul>
-            <li><span className='font-black'>Local</span> Remoto</li>
+            <li><span className='font-black'>Local:</span> Remoto</li>
           </ul>
 
         </ol>

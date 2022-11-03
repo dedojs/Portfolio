@@ -1,16 +1,16 @@
 export function Professional() {
   return (
-    <div className="border-emerald-400 border-2 p-2 mt-2 m-2 rounded-md ">
+    <section className="border-emerald-400 border-2 p-2 mt-2 m-2 rounded-md ">
       <h1 className="text-white text-center font-black mb-4 mt-4 text-4xl ">Experiência Profissional</h1>
-      <div className="flex flex-wrap text-white ml-8">
+      <article className="flex flex-wrap text-white ml-8">
         <ol className="list-decimal">
 
           <li><span className='font-black'>Empresa:</span> Delicatessen Dinani</li>
           <ul className="mb-4">
-            <li><span className='font-black'>Cargo:</span> Empresário - sócio-grenete</li>
+            <li><span className='font-black'>Cargo:</span> Empresário - sócio-gerente</li>
             <li><span className='font-black'>Período:</span> dezembro de 2001 - fevereiro de 2022. 20 anos 3 meses</li>
             <ul className="list-disc"><span className='font-black '>Competências:</span>
-              <li className="ml-4 ">Gerenciamento comercial - realizando compra de mercadorias para produção e comercialização no varejo. Atendimento a forncedores</li>
+              <li className="ml-4 ">Gerenciamento comercial - realizando compra de mercadorias para produção e comercialização no varejo. Atendimento a fornecedores</li>
               <li className="ml-4">Gerenciamento pessoal - realizando contratação, treinamento, reuniões e desligamento de colaboradores</li>
               <li className="ml-4">Gerenciamento administrativo - realizando a análise de fluxo de caixa, compensações bancárias, cálculo de margem de lucro, etc</li>
             </ul>
@@ -31,7 +31,7 @@ export function Professional() {
           </ul>
 
         </ol>
-      </div>
-    </div>
+      </article>
+    </section>
   )
 }
